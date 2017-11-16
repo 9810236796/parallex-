@@ -49,4 +49,13 @@ $(document).ready(function(){
 
 	//FOR TABS
 	$("#tabs").tabs();
+
+	//FOR ACTIVE CLASS IN NAV
+	$(window).scroll(function(){
+		if($(window).scrollTop()){
+			$("#top,#top span,#logo,.menu-icon,menu-icon span").addClass("black");
+		}else{
+			$("#top,#top span,#logo,.menu-icon,menu-icon span").removeClass("black");
+		}
+	})
 });

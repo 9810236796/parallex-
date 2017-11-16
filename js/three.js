@@ -1,17 +1,4 @@
 
-function Topscroll(){
-	var top= document.getElementById("top");
-	var Ypos = window.pageYOffset;
-		
-		if(Ypos > 400){
-			top.style.height="35px";
-			
-		}else{
-			top.style.height="50px";
-		
-		}
-}
-		window.addEventListener("scroll",Topscroll);
 
 
 
